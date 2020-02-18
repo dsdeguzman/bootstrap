@@ -1,0 +1,170 @@
+<!DOCTYPE htmp>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <style>
+    .header {
+      padding: 20
+    }
+    #inputFile {
+      margin-left: 65
+    }
+    .form-row {
+      margin-left: 60
+    }
+    body {
+      color: blue
+    }
+    #inputAddress2 {
+      margin-left: 217
+    }
+    #inputCountry {
+      margin-left: 217
+    }
+  </style>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">User Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </nav>
+      <h1 class="header">User Basic Information</h1>
+      <form class="File">
+        <div class="form-group">
+            <img src="img.jpg" class="img-thumbnail" id="inputFile">
+            <input type="file" class="form-control-file" id="inputFile">
+        </div>
+      </form>
+      <form class="Name">
+        <div class="form-row">
+          <div class="col-sm-2">
+            <label for="Name">Name</label>
+        </div>
+          <div class="col-sm-2">
+            <input type="text" class="form-control" id="inputName" placeholder="First name">
+          </div>
+          <div class="col-sm-3">
+            <input type="text" class="form-control" id="inputName" placeholder="Last name">
+          </div>
+        </div>
+
+      </form>
+      <form class="Birthdate">
+        <div class="form-row">
+          <div class="col-sm-2">
+            <label for="Birthdate">Birthdate</label>
+          </div>
+          <div class="col-sm-3">
+              <input type="date" class="form-control" id="inputBirthdate">
+          </div>
+        </div>
+      </form>
+      <form class="Address">
+        <div class="form-row">
+          <div class="col-sm-2">
+            <label for="Address">Address</label>
+          </div>
+          <div class="col-sm-5">
+            <input type="text" class="form-control" id="inputAddress" placeholder="Street Address">
+          </div>
+        </div>
+      </form>
+      <form class="Address">
+        <div class="form-row">
+          <div class="col-sm-2">
+            <input type="text" class="form-control" id="inputAddress2" placeholder="City">
+          </div>
+          <div class="col-sm-2">
+            <input type="text" class="form-control" id="inputAddress2" placeholder="State / Province">
+          </div>
+        </div>
+      </form>
+      <form class="form-row">
+        <div class="col-sm-2">
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Postal / Zip Code">
+        </div>
+        <div class="col-sm-3">
+          <select id="inputCountry" class="form-control">
+            <option selected>Select Country</option>
+            <option>Japan</option>
+            <option>Philippines</option>
+            <option>South Korea</option>
+            <option>Thailand</option>
+            <option>United States of America</option>
+          </select>
+        </div>
+      </form>
+      <form class="Email Address">
+        <div class="form-row">
+          <div class="col-sm-2">
+            <label for="Email Address">Email Address</label>
+          </div>
+          <div class="col-sm-3">
+            <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
+          </div>
+        </div>
+      </form>
+      <form class="Mobile Number">
+        <div class="form-row">
+          <div class="col-sm-2">
+            <label for="Mobile Number">Mobile Number</label>
+          </div>
+          <div class="col-sm-2">
+            <select id="inputAreaCode" class="form-control">
+              <option selected>Area Code</option>
+              <option>+81</option>
+              <option>+63</option>
+              <option>+82</option>
+              <option>+66</option>
+              <option>+1</option>
+            </select>
+          </div>
+          <label for="Mobile Number">-</label>
+          <div class="col-sm-3">
+            <input type="tel" class="form-control" id="inputMobile" placeholder="Phone Number">
+          </div>
+        </div>
+      </form>
+      <form class="Description">
+        <div class="form-row">
+          <div class="col-sm-2">
+            <label for="Description">Description</label>
+          </div>
+          <div class="col-sm-5">
+            <textarea class="form-control" rows="3" placeholder="Tell something about yourself"></textarea>
+          </div>
+        </div>
+      </form>
+      <div class="Submit">
+        <div class="col-sm-9">
+          <div class="text-right">
+            <button type="button" class="btn btn-primary btn pull-right">Submit</button>
+          </div>
+        </div>
+      </div>
+
+    <script type="text/javascript" src="js/jquery-3.4.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
+</html>
